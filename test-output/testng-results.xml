@@ -2,34 +2,32 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20980" started-at="2020-02-14T10:01:44Z" finished-at="2020-02-14T10:02:05Z">
+  <suite name="Default suite" duration-ms="19451" started-at="2020-02-14T11:02:02Z" finished-at="2020-02-14T11:02:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20980" started-at="2020-02-14T10:01:44Z" finished-at="2020-02-14T10:02:05Z">
-      <class name="startbootstrap.project.LoginSTartbootStrap">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:startbootstrap.project.LoginSTartbootStrap@4b9e13df]" name="launchBrowser" is-config="true" duration-ms="9285" started-at="2020-02-14T15:31:44Z" finished-at="2020-02-14T15:31:54Z">
+    <test name="Default test" duration-ms="19451" started-at="2020-02-14T11:02:02Z" finished-at="2020-02-14T11:02:21Z">
+      <class name="startbootstrap.project.RegisterStartbootstrap">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:startbootstrap.project.RegisterStartbootstrap@cb5822]" name="launchBrowser" is-config="true" duration-ms="8253" started-at="2020-02-14T16:32:02Z" finished-at="2020-02-14T16:32:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="fillRegistration()[pri:0, instance:startbootstrap.project.LoginSTartbootStrap@4b9e13df]" name="fillRegistration" duration-ms="1991" started-at="2020-02-14T15:31:54Z" finished-at="2020-02-14T15:31:56Z">
+        <test-method status="PASS" signature="Login()[pri:0, instance:startbootstrap.project.RegisterStartbootstrap@cb5822]" name="Login" duration-ms="1747" started-at="2020-02-14T16:32:10Z" finished-at="2020-02-14T16:32:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fillRegistration -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:startbootstrap.project.LoginSTartbootStrap@4b9e13df]" name="closeBrowser" is-config="true" duration-ms="202" started-at="2020-02-14T15:31:56Z" finished-at="2020-02-14T15:31:56Z">
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:startbootstrap.project.RegisterStartbootstrap@cb5822]" name="closeBrowser" is-config="true" duration-ms="328" started-at="2020-02-14T16:32:12Z" finished-at="2020-02-14T16:32:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- startbootstrap.project.LoginSTartbootStrap -->
-      <class name="startbootstrap.project.RegisterStartbootstrap">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:startbootstrap.project.RegisterStartbootstrap@61832929]" name="launchBrowser" is-config="true" duration-ms="7976" started-at="2020-02-14T15:31:56Z" finished-at="2020-02-14T15:32:04Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:startbootstrap.project.RegisterStartbootstrap@cb5822]" name="launchBrowser" is-config="true" duration-ms="6802" started-at="2020-02-14T16:32:12Z" finished-at="2020-02-14T16:32:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="fillRegistration()[pri:0, instance:startbootstrap.project.RegisterStartbootstrap@61832929]" name="fillRegistration" duration-ms="1178" started-at="2020-02-14T15:32:04Z" finished-at="2020-02-14T15:32:05Z">
+        <test-method status="PASS" signature="Registration()[pri:0, instance:startbootstrap.project.RegisterStartbootstrap@cb5822]" name="Registration" duration-ms="2018" started-at="2020-02-14T16:32:19Z" finished-at="2020-02-14T16:32:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fillRegistration -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:startbootstrap.project.RegisterStartbootstrap@61832929]" name="closeBrowser" is-config="true" duration-ms="320" started-at="2020-02-14T15:32:05Z" finished-at="2020-02-14T15:32:05Z">
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:startbootstrap.project.RegisterStartbootstrap@cb5822]" name="closeBrowser" is-config="true" duration-ms="275" started-at="2020-02-14T16:32:21Z" finished-at="2020-02-14T16:32:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
